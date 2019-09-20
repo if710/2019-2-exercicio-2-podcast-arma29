@@ -114,8 +114,8 @@ object Parser {
                 pubDate = readData(parser, "pubDate")
             } else if (name == "description") {
                 description = readData(parser, "description")
-            } else if (name == "guid") {
-                downloadLink = readData(parser, "guid") //get using globally unique identifier
+            } else if (name == "enclosure") {
+                downloadLink = parser.getAttributeValue(null,"url") // get .mp3 via enclosure (hipsters.tech)
             }else {
                 skip(parser)
             }
