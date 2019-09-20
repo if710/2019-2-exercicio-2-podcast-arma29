@@ -1,4 +1,4 @@
-# IF710 2019.2 - Exercício 2 - Podcast Player
+﻿# IF710 2019.2 - Exercício 2 - Podcast Player
 
 Esta tarefa envolve os conceitos de UI widgets, Threads, Custom Adapters, 
 Intents, Permissions, SharedPreferences, e SQLite. 
@@ -33,8 +33,8 @@ episódio, atualizações em segundo plano, notificações de novos episódios, 
 | Passo | Completou? |
 | ------ | ------ |
 | 1 | **sim** |
-| 2 | **não** |
-| 3 | **não** |
+| 2 | **sim** |
+| 3 | **sim** |
 | 4 | **não** |
 | 5 | **não** |
 | 6 | **não** |
