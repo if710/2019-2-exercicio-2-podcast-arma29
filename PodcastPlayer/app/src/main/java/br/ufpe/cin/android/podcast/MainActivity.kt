@@ -14,8 +14,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        loadXML("https://s3-us-west-1.amazonaws.com/podcasts.thepolyglotdeveloper.com/podcast.xml")
     }
 
+    // Carregar xml - read + parse
     fun loadXML(RSSfeed: String){
         doAsync {
             val xml = URL(RSSfeed).readText()

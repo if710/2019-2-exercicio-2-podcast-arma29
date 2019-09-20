@@ -115,7 +115,8 @@ object Parser {
             } else if (name == "description") {
                 description = readData(parser, "description")
             } else if (name == "enclosure") {
-                downloadLink = parser.getAttributeValue(null,"url") // get .mp3 via enclosure (hipsters.tech)
+                downloadLink = parser.getAttributeValue(null,"url") // get .mp3 via enclosure
+                skip(parser) //necessary
             }else {
                 skip(parser)
             }

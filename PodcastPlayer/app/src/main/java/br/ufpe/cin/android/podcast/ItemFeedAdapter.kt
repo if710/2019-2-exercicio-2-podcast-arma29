@@ -8,6 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import android.widget.Button
 
+// Custom Adapter - Bind and Inits the holder
 class ItemFeedAdapter (private val itemsFeedList: List<ItemFeed>) :
     RecyclerView.Adapter<ItemFeedAdapter.ItemFeedViewHolder>(){
 
